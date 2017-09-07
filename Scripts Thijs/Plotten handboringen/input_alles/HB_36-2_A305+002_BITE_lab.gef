@@ -1,0 +1,75 @@
+#GEFID= 1, 1, 0
+#FILEOWNER= YUK.NG
+#FILEDATE= 2016,11,04
+#PROJECTID= Ravenstein, 1216-0057-231, -
+#TESTID= HB_36-2_A305+002_BITE
+#COLUMN= 2
+#COLUMNINFO= 1, m, Diepte bovenkant laag,1
+#COLUMNINFO= 2, m, Diepte onderkant laag,2
+#COLUMNVOID= 1, -9999.99
+#COLUMNVOID= 2, -9999.99
+#COMPANYID= Fugro GeoServices B.V.,-,31
+#DATAFORMAT= ASCII
+#COLUMNTEXT= 1, verplicht
+#COLUMNSEPARATOR= ;
+#RECORDSEPARATOR= !
+#REPORTCODE= GEF-BORE-Report, 1, 0, 0, -
+#LASTSCAN= 7
+#XYID= 31000, 176968.952, 419540.38, 0.01, 0.01
+#ZID= 31000, 8.806, 0.01
+#MEASUREMENTCODE= NEN5104, 1, 0, 0, NNI 1989
+#MEASUREMENTTEXT= 1, -, opdrachtgever
+#MEASUREMENTTEXT= 3, -, plaatsnaam boring
+#MEASUREMENTTEXT= 4, Nee, boring niet uitgevoerd volgens NEN 5119
+#MEASUREMENTTEXT= 5, 2016-09-01, datum boorbeschrijving
+#MEASUREMENTTEXT= 6, nvv, beschrijver lagen (lab)
+#MEASUREMENTTEXT= 9, maaiveld, vast horizontaal niveau
+#MEASUREMENTTEXT= 12, LDGZ,  plaatsbepalingmethode
+#MEASUREMENTTEXT= 13, -, boorbedrijf
+#MEASUREMENTTEXT= 14, Nee, openbaar
+#MEASUREMENTTEXT= 16, 2016-09-01, datum boring
+#MEASUREMENTTEXT= 18, Nee, peilbuis; afwezig
+#MEASUREMENTTEXT= 19, 2016-09-16, einddatum boring
+#MEASUREMENTTEXT= 23, jmn, naam boormeester
+#MEASUREMENTTEXT= 31, -, boormethode1
+#MEASUREMENTVAR= 13, 0.00, voorgegraven diepte
+#MEASUREMENTVAR= 18, 2.73, GWS
+#MEASUREMENTVAR= 19, 0, aantal peilbuizen
+#MEASUREMENTVAR= 31, 5.00, m, diepte onderkant boortraject1
+#MEASUREMENTVAR= 32, 167, mm, boorbuisdiameter1
+#SPECIMENVAR= 1,9, -, aantal monsters
+#SPECIMENVAR= 11, 0.00, m, bovenkant monster1
+#SPECIMENVAR= 12, 0.30, m, onderkant monster1
+#SPECIMENVAR= 18, 0.30, m, bovenkant monster2
+#SPECIMENVAR= 19, 0.63, m, onderkant monster2
+#SPECIMENVAR= 25, 0.30, m, bovenkant monster3
+#SPECIMENVAR= 26, 0.70, m, onderkant monster3
+#SPECIMENVAR= 32, 0.70, m, bovenkant monster4
+#SPECIMENVAR= 33, 1.10, m, onderkant monster4
+#SPECIMENVAR= 39, 0.80, m, bovenkant monster5
+#SPECIMENVAR= 40, 1.20, m, onderkant monster5
+#SPECIMENVAR= 46, 1.10, m, bovenkant monster6
+#SPECIMENVAR= 47, 2.00, m, onderkant monster6
+#SPECIMENVAR= 53, 2.00, m, bovenkant monster7
+#SPECIMENVAR= 54, 3.40, m, onderkant monster7
+#SPECIMENVAR= 60, 3.40, m, bovenkant monster8
+#SPECIMENVAR= 61, 4.00, m, onderkant monster8
+#SPECIMENVAR= 67, 4.00, m, bovenkant monster9
+#SPECIMENVAR= 68, 5.00, m, onderkant monster9
+#SPECIMENTEXT= 11, 1, monstercode monster1
+#SPECIMENTEXT= 18, St1, monstercode monster2
+#SPECIMENTEXT= 25, 2, monstercode monster3
+#SPECIMENTEXT= 32, 3, monstercode monster4
+#SPECIMENTEXT= 39, St2, monstercode monster5
+#SPECIMENTEXT= 46, 4, monstercode monster6
+#SPECIMENTEXT= 53, 5, monstercode monster7
+#SPECIMENTEXT= 60, 6, monstercode monster8
+#SPECIMENTEXT= 67, 7, monstercode monster9
+#EOH=
+0.00;0.30;'Ks3h2 WO2,PU2';'';'BR';'';!
+0.30;0.70;'Ks2h2 RO';'';'BR';'';!
+0.70;1.20;'Ks3h2 ZN4';'';'BR';'';!
+1.20;2.00;'Zs3h2 KLE6';'ZZF';'BR';'';!
+2.00;3.40;'Kz1h2 ZN5';'';'BR';'';!
+3.40;4.00;'Kz1h2';'';'BR';'';!
+4.00;5.00;'Kz1h1 HO2';'';'GR DO';'';!
