@@ -1,5 +1,0 @@
-Programma:	Excel
-Code:		Tool
-Beschrijving:	Rekenbladen ET+GT. Excel rekenbladen om de eenvoudige en gedetailleerde toetsen, voor zover niet door WBI-software gefaciliteerd, snel en uniform uit te voeren. 
-Opdrachtgever:	RWS WVL
-Contactpersoon:	Iris van de Kerk Rijkswaterstaat

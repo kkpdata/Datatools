@@ -1,5 +1,0 @@
-Programma:	Excel
-Code: 		macro
-Beschrijving:	macro in excel om uit een directory alle coordinaten uit een gef te lezen waarna de gefs in gis geplaats en gekopeld kunnen worden
-Auteur:		William van Ruiten
-Waterschap:	Waterschap Limburg
