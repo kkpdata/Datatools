@@ -1,17 +1,29 @@
 # Inleiding
 
-Welkom op de repository van KKPdata. KKP staat voor Kennis en Kunde Platforms waarin Nederlandse waterkeringbeheerders en ingenieursbureaus de mogelijkheid wordt geboden om kennis en kunde met betrekking tot het beoordelen, beheren en ontwerpen van waterkeringen met elkaar te delen. Data staat voor datatools dat zijn softwaretools om beschikbare data dusdanig te bewerken zodat deze kunnen worden toegepast in de "officiële" software voor waterkeringen. Voor elke tool wordt een map aangemaakt met daarin de software, een beschrijving en een uitgewerkt voorbeeld. 
+Welkom op de repository van KKPdata. KKP staat voor Kennis en Kunde Platforms waarin Nederlandse waterkeringbeheerders en ingenieursbureaus de mogelijkheid 
+wordt geboden om kennis en kunde met betrekking tot het beoordelen, beheren en ontwerpen van waterkeringen met elkaar te delen. 
+Data staat voor datatools dat zijn softwaretools om beschikbare data dusdanig te bewerken zodat deze kunnen worden toegepast in de "officiële" software voor waterkeringen. 
+Elke deelnemer krijgt de gelegenheid om de eigen tools beschikbaar te stellen aan derden in een eigen folder. De naam van een dergelijke folder luidt:
+
+Scripts-_organisatie_-_voornaam_ (bijvoorbeeld Scripts-deltares-marien)
+
 
 ## Inhoudsopgave:
 
-Scripts Jan-Kees
+Op dit moment zijn de volgende folders aangemaakt
+
+Scripts-hollandsedelta-jan-kees
 * Profielentool
 * Formules STMI en GABI
  
-Scripts Thijs IJpelaar
+Scripts-aaenmaas-thijs
 * Plotten Handboringen
 * Plotten Sonderingen
 * Profielenviewer
+
+## Aanmelden
+
+Om een bijdrage te kunnen leveren aan deze repository is het nodig om je aan te melden bij [Marien Boers] (https://github.com/marienboers "Marien Boers")
 
 ## Hulp nodig?
 
