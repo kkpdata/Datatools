@@ -23,7 +23,7 @@ Scripts-aaenmaas-thijs
 
 ## Aanmelden
 
-Om een bijdrage te kunnen leveren aan deze repository is het nodig om je aan te melden bij [Marien Boers] (https://github.com/marienboers "Marien Boers")
+Om een bijdrage te kunnen leveren aan deze repository is het nodig om je aan te melden bij [Marien Boers](https://github.com/marienboers "Marien Boers")
 
 ## Hulp nodig?
 
