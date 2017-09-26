@@ -1,0 +1,52 @@
+#GEFID= 1, 1, 0
+#FILEOWNER= sonlab
+#FILEDATE= 2015, 9, 1
+#PROJECTID= Bepaling ongedraineerde schuifsterkte parameters regionale keringen, 02P004965, -
+#COLUMN= 2
+#COLUMNINFO= 1, m, Laag van, 1
+#COLUMNINFO= 2, m, Laag tot, 2
+#COMPANYID= -, -, 31
+#DATAFORMAT= ASCII
+#COLUMNSEPARATOR= ;
+#COLUMNTEXT= 1
+#LASTSCAN= 6
+#XYID= 31000, 108190.07, 432528.78, 0.01, 0.01
+#ZID= 31000, -1.88, 0.01
+#MEASUREMENTCODE= NEN5104, 1, 0, 0, NNI 1989
+#MEASUREMENTTEXT= 3, -, plaatsnaam boring
+#MEASUREMENTTEXT= 5, 2014-09-18, datum boorbeschrijving
+#MEASUREMENTTEXT= 6, B. van der Stelt, beschrijver lagen
+#MEASUREMENTTEXT= 7, RijksDriehoek coördinatensysteem, locaal coördinatiesysteem
+#MEASUREMENTTEXT= 8, NAP, locaal referentiesysteem
+#MEASUREMENTTEXT= 9, maaiveld, vast horizontaal niveau
+#MEASUREMENTTEXT= 13, Inpijn-Blokpoel Sliedrecht, boorbedrijf
+#MEASUREMENTTEXT= 14, Nee, openbaar
+#MEASUREMENTTEXT= 16, 2014-09-18, datum boring
+#MEASUREMENTTEXT= 18, Nee, Peilbuis aanwezig
+#MEASUREMENTTEXT= 23, B. van der Stelt, naam boormeester
+#MEASUREMENTTEXT= 31, -, boormethode1
+#MEASUREMENTVAR= 16, 5.000000, m, eind diepte boring
+#MEASUREMENTVAR= 31, 0.000000, m, diepte onderkant boortraject1
+#MEASUREMENTVAR= 32, 0.000000, mm, boorbuisdiameter1
+#SPECIMENTEXT= 11, mo-01, monstercode monster1
+#SPECIMENTEXT= 14, O, (on)geroerd monster1
+#SPECIMENTEXT= 18, mo-02, monstercode monster2
+#SPECIMENTEXT= 21, O, (on)geroerd monster2
+#SPECIMENVAR= 1, 2.000000, -, aantal monsters
+#SPECIMENVAR= 11, 0.800000, m, bovenkant monster1
+#SPECIMENVAR= 12, 1.200000, m, onderkant monster1
+#SPECIMENVAR= 18, 1.500000, m, bovenkant monster2
+#SPECIMENVAR= 19, 1.900000, m, onderkant monster2
+#PROCEDURECODE= GEF-BORE-Report, 1, 0, 0, -
+#TESTID= AC028+92,9_HB_AL
+#REPORTCODE= GEF-BORE-Report, 1, 0, 0, -
+#RECORDSEPARATOR= !
+#OS= DOS
+#LANGUAGE= NL
+#EOH=
+0.0000e+000;2.5000e-001;'Ks1h3 WO';;'TBR GR';;!
+2.5000e-001;2.0000e+000;'NBE HO';;'DO BR';;!
+2.0000e+000;2.5000e+000;'NBE HO';;'DO BR';;!
+2.5000e+000;3.2000e+000;'NBE HO';;'DO BR';;!
+3.2000e+000;3.7000e+000;'NBE HO';;'DO BR';;!
+3.7000e+000;5.0000e+000;'NBE HO';;'DO TGR BR';;!
