@@ -18,8 +18,9 @@
 
 3. [Scripts-rivierenland-sander](https://github.com/kkpdata/Datatools/tree/master/Scripts-rivierenland-sander):
 
-   _Organisatie: [Waterschap Rivierenland](https://www.waterschaprivierenland.nl/); deelnemer: Sander Kapinga_
-   _Ontwikkelaar: Co Drost - [Giswerk](https://www.giswerk.nl/)_
+   _Organisatie: [Waterschap Rivierenland](https://www.waterschaprivierenland.nl/); contactpersoon: Sander Kapinga_
+   
+   _Ontwikkelaar: [Giswerk](https://www.giswerk.nl/); contactpersoon: Co Drost_
 
 * [GEF_inlezen_ArcGis](https://github.com/kkpdata/Datatools/tree/master/Scripts-rivierenland-sander/GEF_inlezen_ArcGis)
 
