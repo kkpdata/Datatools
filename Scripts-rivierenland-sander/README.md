@@ -13,7 +13,7 @@ Let er op dat je de GEF files van boringen en sonderingen van elkaar scheidt. He
 "KoppelGrndSoort" berekent de terreinspanningen op basis van een gekoppelde tabel met laagscheidingen. Dit werkt echter niet foutloos. In de testset is een voorbeeldtabel toegevoegd.
 "exportCSV" exporteert per sondering/boring de data in sondering_lagen en boring_lagen
 
-## bekende Issues
+## Bekende issues
 Het script "KoppelGrndSoort" is niet foutloos. Bij meerdere sonderingen ontstaat een rijverschil waardoor terreinspanningen niet goed berekend worden.
 
 ## Contact
