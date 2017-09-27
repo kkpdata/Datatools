@@ -27,6 +27,6 @@
 
 4. [Scripts-noorderzijlvest-alfred](https://github.com/kkpdata/Datatools/tree/master/Scripts-noorderzijlvest-alfred):
 
-   _Organisatie: [Waterschap Hollandse Delta](https://www.noorderzijlvest.nl); deelnemer: [Alfred](https://github.com/orgs/kkpdata/people/adrenth2017)_
+   _Organisatie: [Waterschap Noorderzijlvest](https://www.noorderzijlvest.nl); deelnemer: [Alfred](https://github.com/orgs/kkpdata/people/adrenth2017)_
 
 * [SOS scenarios](https://github.com/kkpdata/Datatools/tree/master/Scripts-noorderzijlvest-alfred)
