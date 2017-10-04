@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>qDAMEdit</string>
+  </property>
+  <widget class="QSplitter" name="splitterMain">
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="handleWidth">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="centralWidget">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QProjectView" name="wProjectView" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>400</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>-1</width>
+         <height>-1</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QSlider" name="sliderYScale">
+       <property name="tracking">
+        <bool>true</bool>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedAppearance">
+        <bool>false</bool>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QSlider" name="sliderXScale">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <layout class="QHBoxLayout" name="HLayoutBottom">
+     <item>
+      <spacer name="horizontalSpacerX1">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>3</width>
+         <height>0</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QSplitter" name="splitterBottom">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="handleWidth">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="verticalLayoutProfilesWidget">
+        <layout class="QVBoxLayout" name="verticalLayoutProfiles">
+         <item>
+          <widget class="QLabel" name="labelProfiles">
+           <property name="text">
+            <string>Profielen</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="profileListWidget"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutPointsWidget">
+        <layout class="QVBoxLayout" name="verticalLayoutPoints">
+         <item>
+          <widget class="QLabel" name="labelPoints">
+           <property name="text">
+            <string>Karakteristieke punten</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="cpointsListWidget"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutCommentsWidget">
+        <layout class="QVBoxLayout" name="verticalLayoutComments">
+         <item>
+          <widget class="QLabel" name="labelComments">
+           <property name="text">
+            <string>Opmerkingen</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSplitter" name="splitterComments">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="handleWidth">
+            <number>0</number>
+           </property>
+           <widget class="QListWidget" name="commentsListWidget">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::MultiSelection</enum>
+            </property>
+           </widget>
+           <widget class="QTextEdit" name="commentsTextEdit"/>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutLogWidget">
+        <layout class="QVBoxLayout" name="verticalLayoutLog">
+         <item>
+          <widget class="QLabel" name="labelLog">
+           <property name="text">
+            <string>Log</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="logTextEdit">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="acceptDrops">
+            <bool>false</bool>
+           </property>
+           <property name="undoRedoEnabled">
+            <bool>false</bool>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacerX2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>3</width>
+         <height>0</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBestand">
+    <property name="title">
+     <string>Bestand</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionExportImage"/>
+    <addaction name="actionExportAll"/>
+    <addaction name="separator"/>
+    <addaction name="actionSettings"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuBewerken">
+    <property name="title">
+     <string>Bewerken</string>
+    </property>
+    <addaction name="actionStartStop"/>
+    <addaction name="actionSkip"/>
+    <addaction name="actionReset"/>
+    <addaction name="actionInvalidProfile"/>
+   </widget>
+   <widget class="QMenu" name="menuNavigatie">
+    <property name="title">
+     <string>Navigatie</string>
+    </property>
+    <addaction name="actionToStart"/>
+    <addaction name="actionBackward"/>
+    <addaction name="actionForward"/>
+    <addaction name="actionToEnd"/>
+   </widget>
+   <widget class="QMenu" name="menuBeeld">
+    <property name="title">
+     <string>Beeld</string>
+    </property>
+    <addaction name="actionShowPoints"/>
+    <addaction name="actionShowLines"/>
+    <addaction name="actionShowGrid"/>
+    <addaction name="actionReset_zoom"/>
+   </widget>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>Info</string>
+    </property>
+    <addaction name="actionInfo"/>
+   </widget>
+   <addaction name="menuBestand"/>
+   <addaction name="menuBewerken"/>
+   <addaction name="menuNavigatie"/>
+   <addaction name="menuBeeld"/>
+   <addaction name="menuInfo"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionExportImage"/>
+   <addaction name="actionExportAll"/>
+   <addaction name="separator"/>
+   <addaction name="actionStartStop"/>
+   <addaction name="actionSkip"/>
+   <addaction name="actionReset"/>
+   <addaction name="actionInvalidProfile"/>
+   <addaction name="separator"/>
+   <addaction name="actionToStart"/>
+   <addaction name="actionBackward"/>
+   <addaction name="actionForward"/>
+   <addaction name="actionToEnd"/>
+   <addaction name="separator"/>
+   <addaction name="actionShowPoints"/>
+   <addaction name="actionShowLines"/>
+   <addaction name="actionShowGrid"/>
+   <addaction name="actionReset_zoom"/>
+   <addaction name="actionSettings"/>
+   <addaction name="separator"/>
+   <addaction name="actionInfo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+  </widget>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/folder.png</normaloff>:/icons/folder.png</iconset>
+   </property>
+   <property name="text">
+    <string>Openen</string>
+   </property>
+   <property name="iconText">
+    <string>OpenIcon</string>
+   </property>
+   <property name="toolTip">
+    <string>Open bestand</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/disk.png</normaloff>:/icons/disk.png</iconset>
+   </property>
+   <property name="text">
+    <string>Opslaan</string>
+   </property>
+   <property name="toolTip">
+    <string>Opslaan bestand</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/cancel.png</normaloff>:/icons/cancel.png</iconset>
+   </property>
+   <property name="text">
+    <string>Afsluiten</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionStartStop">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Start/Stop</string>
+   </property>
+   <property name="toolTip">
+    <string>Registreer karakteristieke punten</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actionSkip">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/pencil_delete.png</normaloff>:/icons/pencil_delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Skip enkel punt</string>
+   </property>
+   <property name="toolTip">
+    <string>Sla karakteristiek punt over</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/bin.png</normaloff>:/icons/bin.png</iconset>
+   </property>
+   <property name="text">
+    <string>Wis alle punten</string>
+   </property>
+   <property name="toolTip">
+    <string>Verwijder alle karakteristieke punten van dit profiel</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="actionToStart">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/resultset_first.png</normaloff>:/icons/resultset_first.png</iconset>
+   </property>
+   <property name="text">
+    <string>Naar eerste</string>
+   </property>
+   <property name="toolTip">
+    <string>Spring naar het eerste profiel.</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+Left</string>
+   </property>
+  </action>
+  <action name="actionBackward">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/resultset_previous.png</normaloff>:/icons/resultset_previous.png</iconset>
+   </property>
+   <property name="text">
+    <string>Naar vorige</string>
+   </property>
+   <property name="toolTip">
+    <string>Spring naar het vorige profiel</string>
+   </property>
+   <property name="shortcut">
+    <string>Left</string>
+   </property>
+  </action>
+  <action name="actionForward">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/resultset_next.png</normaloff>:/icons/resultset_next.png</iconset>
+   </property>
+   <property name="text">
+    <string>Naar volgende</string>
+   </property>
+   <property name="toolTip">
+    <string>Spring naar het volgende profiel</string>
+   </property>
+   <property name="shortcut">
+    <string>Right</string>
+   </property>
+  </action>
+  <action name="actionToEnd">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/resultset_last.png</normaloff>:/icons/resultset_last.png</iconset>
+   </property>
+   <property name="text">
+    <string>Naar laatste</string>
+   </property>
+   <property name="toolTip">
+    <string>Spring naar het laatste profiel</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+Right</string>
+   </property>
+  </action>
+  <action name="actionInfo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/information.png</normaloff>:/icons/information.png</iconset>
+   </property>
+   <property name="text">
+    <string>qDAMEdit</string>
+   </property>
+   <property name="toolTip">
+    <string>Toon informatie over dit programma</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionExportImage">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/image.png</normaloff>:/icons/image.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export afbeelding</string>
+   </property>
+   <property name="toolTip">
+    <string>Exporteer afbeelding van het huidige profiel</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionExportAll">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/images.png</normaloff>:/icons/images.png</iconset>
+   </property>
+   <property name="text">
+    <string>Export alle afbeeldingen</string>
+   </property>
+   <property name="toolTip">
+    <string>Exporteer afbeeldingen van alle profielen</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/cog.png</normaloff>:/icons/cog.png</iconset>
+   </property>
+   <property name="text">
+    <string>Instellingen</string>
+   </property>
+   <property name="toolTip">
+    <string>Aanpassen van de instellingen</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionInvalidProfile">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/cross.png</normaloff>:/icons/cross.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ongeldig profiel</string>
+   </property>
+   <property name="toolTip">
+    <string>Markeer dit profiel als ongeldig</string>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/arrow_undo.png</normaloff>:/icons/arrow_undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="toolTip">
+    <string>Maak de laatste bewerking ongedaan.</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionShowPoints">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/page_white_star.png</normaloff>:/icons/page_white_star.png</iconset>
+   </property>
+   <property name="text">
+    <string>Toon profielpunten</string>
+   </property>
+   <property name="toolTip">
+    <string>Toon of verberg profielpunten</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionShowLines">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/page_white_vector.png</normaloff>:/icons/page_white_vector.png</iconset>
+   </property>
+   <property name="text">
+    <string>Toon hulplijnen</string>
+   </property>
+   <property name="toolTip">
+    <string>Toon of verberg hulplijnen</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionShowGrid">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/page_white_text.png</normaloff>:/icons/page_white_text.png</iconset>
+   </property>
+   <property name="text">
+    <string>Toon raster</string>
+   </property>
+   <property name="toolTip">
+    <string>Toon of verberg raster</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionReset_zoom">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/arrow_in.png</normaloff>:/icons/arrow_in.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reset zoom</string>
+   </property>
+   <property name="toolTip">
+    <string>Reset zoom naar het gehele profiel</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+0</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QProjectView</class>
+   <extends>QWidget</extends>
+   <header>qprojectview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
