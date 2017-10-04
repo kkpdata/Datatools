@@ -3,6 +3,16 @@
 Karakteristieke punten klikken in dwarsprofielen.
 
 
+# Broncode
+
+De broncode van qDAMEditis te vinden in de folder [Broncode](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/qDAMEdit-Kliktool/Broncode)
+
+
+# Installer
+
+Een installer kan worden gedownload bij de Release [qDAMEdit1.0.3](https://github.com/kkpdata/Datatools/releases/tag/qDAMEdit)
+
+
 # Gebruik
 
 De Kliktool kan worden gebruikt om karakteristieke punten te klikken op dwarsprofielen. De tool kan zowel voor DAM als voor WBI worden gebruikt. Voor WBI kan de tool worden ingezet om invoer te genereren voor het maken van pipingberekeningen. Riskeer vraagt voor berekeningen voor het toetsspoor piping (STPH) om profielschematisaties; een bestand met de hoogtegegevens van het dijkprofiel en een karakteristieke puntenbestand voor berekeningen voor het toetsspoor piping (STPH). Met de Kliktool kan dit worden gegenereerd. 
