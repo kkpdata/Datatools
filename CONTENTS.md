@@ -30,6 +30,7 @@
 * [qDAMEdit 1.0.3; Broncode](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/qDAMEdit-Kliktool/Broncode)
 * [qDAMEdit 1.0.3; Release Installer](https://github.com/kkpdata/Datatools/releases/tag/qDAMEdit)
 * [Profielgenerator 1.5.5](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/Profielgenerator%20v.1.5.5)
+* [Profielgenerator 1.5.5; Release Installer](https://github.com/kkpdata/Datatools/releases/tag/Profielgenerator)
 
 
 5. [Scripts-rivierenland-sander](https://github.com/kkpdata/Datatools/tree/master/Scripts-rivierenland-sander):
