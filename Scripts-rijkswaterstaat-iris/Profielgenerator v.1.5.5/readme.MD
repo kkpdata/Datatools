@@ -3,6 +3,11 @@
 Het automatisch genereren van dijkprofielen.
 
 
+# Installer
+
+Een installer kan worden gedownload bij de Release [Profielgenerator1.5.5](https://github.com/kkpdata/Datatools/releases/tag/Profielgenerator)
+
+
 # Gebruik
 
 Voor gebruik in het WBI kun je met de Profielgenerator overslagprofielen genereren die kunnen worden gebruikt in Riskeer en HydraNL. De profielbestanden die Riskeer nodig heeft voor Grasbekleding Erosie Kruin en Binnentalud (GEKB) hebben de extensie .prfl. Deze profielbestanden kunnen met de Profielgenerator worden gegenereerd. 
