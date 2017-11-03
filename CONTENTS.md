@@ -42,3 +42,9 @@
 * [GEF_inlezen_ArcGis](https://github.com/kkpdata/Datatools/tree/master/Scripts-rivierenland-sander/GEF_inlezen_ArcGis)
 
 
+6. [Scripts-valleienveluwe-adrie](https://github.com/kkpdata/Datatools/tree/master/Scripts-valleienveluwe-adrie):
+
+   _Organisatie: [Waterschap Vallei & Veluwe(https://www.vallei-veluwe.nl/); deelnemer: Aadrie van Ruiten
+
+* [Import headergegevens in database](https://github.com/kkpdata/Datatools/tree/master/Scripts-valleienveluwe-adrie)
+
