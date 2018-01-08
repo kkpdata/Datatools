@@ -2,6 +2,9 @@
 
 Het ondersteunen van het proces van het interpreteren van sonderingen.
 
+# Installer
+
+Een installer kan worden gedownload bij de Release CPT-Tool v. 1.1 (https://github.com/kkpdata/Datatools/releases/tag/CPT-Tool)
 
 # Gebruik en functionaliteit
 

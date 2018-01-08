@@ -27,12 +27,10 @@
 4. [Scripts-rijkswaterstaat-iris](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris):
 
    _Organisatie: [Rijkswaterstaat-WVL](https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/organisatiestructuur/water-verkeer-en-leefomgeving/index.aspx); deelnemer: [Iris](https://github.com/orgs/kkpdata/people/IvdK)_
-* [qDAMEdit 1.0.3; Broncode](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/qDAMEdit-Kliktool/Broncode)
-* [qDAMEdit 1.0.3; Release Installer](https://github.com/kkpdata/Datatools/releases/tag/qDAMEdit)
-* [Profielgenerator 1.5.5](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/Profielgenerator%20v.1.5.5)
-* [Profielgenerator 1.5.5; Release Installer](https://github.com/kkpdata/Datatools/releases/tag/Profielgenerator)
-* [CPT-Tool Versie 1.1(https://github.com/kkpdata/Datatools/files/1611876/CPT-Tool.1.1.20171221.zip)
-* [CPT-Tool Versie 1.1; Release Installer](https://github.com/kkpdata/Datatools/files/1611876/CPT-Tool.1.1.20171221.zip)
+* [qDAMEdit 1.0.3](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/qDAMEdit-Kliktool/readme.MD)
+* [Profielgenerator 1.5.5](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/Profielgenerator%20v.1.5.5/readme.MD)
+* [CPT-Tool Versie 1.1(https://github.com/kkpdata/Datatools/blob/master/Scripts-rijkswaterstaat-iris/CPT-Tool%20v.1.1/readme.MD)
+
 
 
 5. [Scripts-rivierenland-sander](https://github.com/kkpdata/Datatools/tree/master/Scripts-rivierenland-sander):
