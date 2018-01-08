@@ -1,0 +1,25 @@
+How to deploy on Windows
+
+First make sure that you have compiled the latest version.
+1. Choose "Release mode".
+2. Compile the source code.
+3. The executable will show up in a directory like: workspace/build-qDAMEdit-Desktop_Qt_5_9_0_MSVC2013_64bit-Release/release/
+4. Clear the deploy directory and copy the executable into it.
+
+Now we need to find all the dependencies.
+
+5. Open a command terminal in Windows.
+6. Goto C:\Qt\5.9\bin
+7. Run this command: windeployqt.exe full-path-to-deploy-directory
+8. Now almost all the dependencies will be copied to the deploy directory.
+9. Copy extra dependencies from the directory setup/extra to the deploy directory.
+
+Finally it is time to create the installer.
+
+10. Open Innosetup
+11. Open setup/qdamedit.iss
+12. Edit version number when needed
+13. Compile and test
+14. The setup will be created in setup/Output
+
+See also: https://twisq1.atlassian.net/wiki/display/QDAM/How+to+deploy+on+Windows
