@@ -1,0 +1,1 @@
+Dit is de software om vanuit D-SoilModel een sti'tje te maken voor in D-GeoStability. Let wel op dat het sti'tje nog aangevuld moet worden met een aantal data zoals waterspanningen voordat een som in D-GeoStability gemaakt kan worden. 
