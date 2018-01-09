@@ -31,7 +31,8 @@
 * [Profielgenerator 1.5.5](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/Profielgenerator%20v.1.5.5/readme.MD)
 * [CPT-Tool Versie 1.1](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijkswaterstaat-iris/CPT-Tool%20v.1.1/readme.MD)
 * [NKT-Tool Versie 1.0](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijkswaterstaat-iris/NKT-Tool%20v.1.0/readme.MD)
-
+* [Rekenbladen Versie 1.1](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijkswaterstaat-iris/Rekenbladen%20v1.1%20dec2017)
+* [DSoil2DGeo](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijkswaterstaat-iris/DSoil2DGeo/readme.MD)
 
 5. [Scripts-rivierenland-sander](https://github.com/kkpdata/Datatools/tree/master/Scripts-rivierenland-sander):
 
@@ -44,7 +45,7 @@
 
 6. [Scripts-valleienveluwe-adrie](https://github.com/kkpdata/Datatools/tree/master/Scripts-valleienveluwe-adrie):
 
-   _Organisatie: [Waterschap Vallei & Veluwe](https://www.vallei-veluwe.nl/); deelnemer: Aadrie van Ruiten_
+   _Organisatie: [Waterschap Vallei & Veluwe](https://www.vallei-veluwe.nl/); deelnemer: Adrie van Ruiten_
 
 * [Import headergegevens in database](https://github.com/kkpdata/Datatools/tree/master/Scripts-valleienveluwe-adrie)
 
