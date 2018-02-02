@@ -42,4 +42,4 @@ Voor het CSV-bestand gelden de volgende regels:
 * De decimalen moeten achter een punt (.) geschreven worden.
 * De eerste regel bevat de veldnamen waarmee de kunstwerken worden beschreven:  Identificatie;Kunstwerken.identificatie;AlfaNumeriekeWaarde;NumeriekeWaarde;Standaardafwijking.variatie;Boolean.
 
-De volgende regels beschrijven de fysieke eigenschappen van de kunstwerken, in de volgorde van de velden zoals weergegeven in de kopregel. Van elk te beoordelen kunstwerk dient minimaal één eigenschap te worden ingevoerd. De gebruiker heeft de mogelijkheid om deze fysieke eigenschappen in de berekeningen aan te passen of aan te vullen [Ringtoets handleiding paragraaf 12.3.1].
+De volgende regels beschrijven de fysieke eigenschappen van de kunstwerken, in de volgorde van de velden zoals weergegeven in de kopregel. Van elk te beoordelen kunstwerk dient minimaal een (1) eigenschap te worden ingevoerd. De gebruiker heeft de mogelijkheid om deze fysieke eigenschappen in de berekeningen aan te passen of aan te vullen [Ringtoets handleiding paragraaf 12.3.1].
