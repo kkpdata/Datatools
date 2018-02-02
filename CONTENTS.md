@@ -21,7 +21,7 @@
 
    _Organisatie: [Waterschap Noorderzijlvest](https://www.noorderzijlvest.nl); deelnemer: [Alfred](https://github.com/orgs/kkpdata/people/adrenth2017)_
 
-* [Datatool kunstwerpparameters](https://github.com/kkpdata/Datatools/tree/master/Scripts-noorderzijlvest-alfred/Datatool-kunstwerkparameters)
+* [Datatool kunstwerkparameters](https://github.com/kkpdata/Datatools/tree/master/Scripts-noorderzijlvest-alfred/Datatool-kunstwerkparameters)
 * [SOS scenarios](https://github.com/kkpdata/Datatools/tree/master/Scripts-noorderzijlvest-alfred/Scripts-voor-SOS-scenarios)
 
 
