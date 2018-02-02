@@ -29,19 +29,3 @@ Kopieer vervolgens die waarden naar een textbestand en sla dat op met de extensi
 
 
 Meerdere kunstwerken? Kopieer het gehele werblad '1e' naar een volgend werkblad.
-
-
-# Uit de handleiding RINGTOETS
-
-Bij het importeren van de gegevens met betrekking tot kunstwerken vraagt RINGTOETS om een locatiebestand (Extensie <.shp>) [paragraaf 3.5.3.2] met daarin de kunstwerklocaties. Vervolgens koppelt RINGTOETS dit locatiebestand met de naam <Bestandsnaam.shp> aan een bijbehorend CSV-bestand met de naam <Bestandsnaam.csv> waarin de eigenschappen van de kunstwerken zijn opgenomen.
-
-De eigenschappen van kunstwerken worden geschematiseerd in een CSV-bestand [paragraaf 3.5.3.1] waarvan de bestandsnaam correspondeert met de bestandsnaam van de locaties van het kunstwerk [paragraaf 12.2.1]. 
-
-Voor het CSV-bestand gelden de volgende regels:
-* Alle velden in elke regel moeten gescheiden worden door middel van een puntkomma (;).
-* De decimalen moeten achter een punt (.) geschreven worden.
-* De eerste regel bevat de veldnamen waarmee de kunstwerken worden beschreven:  Identificatie;Kunstwerken.identificatie;AlfaNumeriekeWaarde;NumeriekeWaarde;Standaardafwijking.variatie;Boolean.
-
-De volgende regels beschrijven de fysieke eigenschappen van de kunstwerken, in de volgorde van de velden zoals weergegeven in de kopregel.
-- Van elk te beoordelen kunstwerk dient minimaal één eigenschap te worden ingevoerd. De gebruiker heeft de mogelijkheid om deze fysieke eigenschappen in de berekeningen aan te passen of aan te vullen [paragraaf 12.3.1].
-
