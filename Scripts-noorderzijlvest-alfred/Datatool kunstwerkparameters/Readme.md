@@ -29,3 +29,8 @@ Kopieer vervolgens die waarden naar een textbestand en sla dat op met de extensi
 
 
 Meerdere kunstwerken? Kopieer het gehele werblad '1e' naar een volgend werkblad.
+
+
+# Uit de handleiding RINGTOETS
+
+Bij het importeren van de gegevens met betrekking tot kunstwerken vraagt RINGTOETS om een locatiebestand (Extensie <.shp>) [paragraaf 3.5.3.2] met daarin de kunstwerklocaties. Vervolgens koppelt RINGTOETS dit locatiebestand met de naam <Bestandsnaam.shp> aan een bijbehorend CSV-bestand met de naam <Bestandsnaam.csv> waarin de eigenschappen van de kunstwerken zijn opgenomen.
