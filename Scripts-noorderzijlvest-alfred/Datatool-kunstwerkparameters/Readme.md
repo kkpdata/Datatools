@@ -17,11 +17,6 @@ Excelfile om op gestructureerde wijze parameterwaarden te verzamelen. Hiervan wo
 Werkblad '1e' bevat de in  te vullen velden.
 Werkblad 'Default waarden' bevat gegevens die door '1e' wordt aangeroepen. Als werkblad '1e' wordt vermeerderd, vanwege meerdere kunstwerken, dan geldt 'Default waarde' ook voor deze vervolgwerkbladen.
 
-
-# Nota Bene
-
-In de datatool wordt ervan uitgegaan dat het instroommodel bij betrouwbaarheid sluiting hetzelfde is als bij sterkte en stabiliteit. Hetzelfde geldt voor het kombergend oppervlak. Dat is niet altijd het geval.
-
 # Werkwijze
 
 Alleen de velden in kolom F of G hoeven ingevuld te worden. De grijze worden dan automatisch gevuld. Toets F9 als dit niet automatisch gaat.
