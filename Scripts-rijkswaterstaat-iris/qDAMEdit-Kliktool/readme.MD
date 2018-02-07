@@ -31,7 +31,7 @@ De Kliktool is geschreven in de open source versie van Qt toolkit versie 5.9.1 e
 # Achtergrondinformatie
 
 Deze Kliktool betreft de in augustus 2017 aangepaste Kliktool; qDAMEdit. De ‘oude Kliktool’ was wat verouderd en was aan een update toe. Deze is als basis gebruikt voor deze nieuwe versie en er is functionaliteit aan toegevoegd, zoals het op kunnen slaan van plaatjes, het toekennen van labels aan geklikte profielen en een logboekfunctie. 
-Op 7 fevruari 2018 is een update van qDAMEdit geplaatst bij de releases. De broncode die hierbij behoort is nog niet aangepast. Deze nieuwe release lost afrondingsproblemen op waardoor gegenereerde KRP-punten in Ringtoets/RisKeer kunnen worden ingelezen.
+Op 7 februari 2018 is een update van qDAMEdit geplaatst bij de releases. De broncode die hierbij behoort is nog niet aangepast. Deze nieuwe release lost afrondingsproblemen op waardoor gegenereerde KRP-punten in Ringtoets/RisKeer kunnen worden ingelezen.
 
 
 
