@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Key="1" type="Deltares.BmGrasBuitentalud.Data.Project" version="17.1.1.4941" GrassCalculationType="WaveImpact">
+  <RunUpAssessment Key="2">
+    <Input Key="3" FactorDeterminationQnFn="2.3" FactorDeterminationQbFb="4.3" Mz2="1" FShallow="0.6777807052660807" ComputedOvertopping="1" CriticalOvertopping="1" RelaxationFactor="1" ReductionFactorForeshore="0.5" Gravity="9.81" ZEval="NaN" AlphaM="1" AlphaS="1" CuMean="1.1" UCritical="NaN" DCritical="7000" UseScaling="False" NFixed="10000" IsModified="False">
+      <Geometry Key="4" Normal="NaN">
+        <Segments />
+      </Geometry>
+      <HydraulicLoad Key="5" HydraulicLoadType="DirectInput" DeltaT="0.25" Ctmtm10="0.92">
+        <WaveConditions />
+        <WaterLevels />
+        <QVariant />
+      </HydraulicLoad>
+    </Input>
+    <Output Key="6" FoS="NaN" DLoad="0">
+      <OutputFractions />
+    </Output>
+    <ValidationResults type="System.Collections.Generic.List`1[[Deltares.Standard.Validation.ValidationResult, Deltares.Standard, Version=17.1.1.0, Culture=neutral, PublicKeyToken=31fe100197c68040]]" />
+  </RunUpAssessment>
+  <WaveImpactAssessment Key="7">
+    <Input Key="8" ZGrassMin="10.72" ZGrassMax="13.43" DeltaZ="0.1" Hm0Min="0.25" Hm0Max="1.25" ZswlMin="10.72" ZswlMax="14.22" ConstantA="1" ConstantB="-0.035" ConstantC="0.25" DCombined="0.5" FSand="0.4" IsModified="False">
+      <HydraulicLoad Key="9" HydraulicLoadType="SyntheticStorm" DeltaT="0.25" Ctmtm10="0.92">
+        <WaveConditions />
+        <WaterLevels>
+          <WaterLevel Key="10" Hour="0" Zswl="11" />
+          <WaterLevel Key="11" Hour="12" Zswl="11" />
+        </WaterLevels>
+        <QVariant>
+          <QVarian Key="12" Hour="0" Zswl="11" Hm0="0.65" Tmm10="0.1" Direction="0" />
+          <QVarian Key="13" Hour="0" Zswl="10.99" Hm0="0.65" Tmm10="0.1" Direction="0" />
+        </QVariant>
+      </HydraulicLoad>
+    </Input>
+    <ValidationResults type="System.Collections.Generic.List`1[[Deltares.Standard.Validation.ValidationResult, Deltares.Standard, Version=17.1.1.0, Culture=neutral, PublicKeyToken=31fe100197c68040]]" />
+  </WaveImpactAssessment>
+</Project>
