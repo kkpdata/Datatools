@@ -19,6 +19,8 @@ Bij het installeren van de rekenbladen worden de volgende bestanden meegeleverd:
 # Versiebeheer
 
 Het betreft versie 1.2, december 2018.
+
+
 | --- | --- | --- |
 | Versie rekenbladen | Datum | Aanpassing |
 | --- | --- | --- |
