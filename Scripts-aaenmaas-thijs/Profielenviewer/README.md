@@ -3,6 +3,9 @@ De profielenviewer is een GUI om dwarsprofielen te visusaliseren. De opmaak voor
 
 Als voorbeeid zijn twee CSV-bestanden bijgevoegd, *voorbeeldinput_1.csv* en *voorbeeldinput_2.csv*.
 
+## Vereisten
+* Python 2.7
+
 # Benodigde kolommen:
 
 `CODE	SUBCODE	X	Y	Z	DIJKPAAL`
