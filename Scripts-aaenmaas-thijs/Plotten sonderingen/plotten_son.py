@@ -48,7 +48,7 @@ for file in os.listdir(folder):
     for dt,db,c in zip(d_top,d_bot,clas):
         ax1.add_patch(mpatches.Rectangle([float(dijkpaal)-0.75, db], 1.5, dt-db,linewidth=0,facecolor=color[int(c)]))
     
-#Voor Unix-systemen:
+#Unix:
 labels = sorted(labels)
 
 plt.grid()
