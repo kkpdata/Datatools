@@ -21,12 +21,12 @@ Bij het installeren van de rekenbladen worden de volgende bestanden meegeleverd:
 Het betreft versie 1.2, december 2018.
 
 
-| --- | --- | --- |
+
 | Versie rekenbladen | Datum | Aanpassing |
 | --- | --- | --- |
 | 1.1 | December 2017 | - |
 | 1.2 | Maart 2018 | Bij GABI GB voor type dijk ‘zand talud boven water’ is een verkeerde verwijzing aangepast. Het gaat om de berekening van de tangens effectieve hoek van inwendige wrijving (Cel C18 in het blad ‘bekijk beoordeling’ van GABI GB). Ook in de berekening van de Z-waarde (cel C24) is een aanpassing gedaan |
-| --- | --- | --- |		
+
 
 
 
