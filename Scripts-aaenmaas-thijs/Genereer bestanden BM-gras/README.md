@@ -1,5 +1,5 @@
 # Inleiding
-Binnen het toetsspoor GABU wordt BM Grasbekledingen gebruikt om de erosiebestendigheid van het buitentalud te berekenen. Per vak dienen, per beoordeelde faalkanscategorie, individuele berekeningen te worden uitgevoerd wat resulteert in veel verschillende projectbestanden, veelal handmatig ingevuld. Om dit proces te vergemakkelijk en om fouten in invoer te voorkomen is dit script opgezet.
+Binnen het toetsspoor GEBU wordt BM Grasbekledingen gebruikt om de erosiebestendigheid van het buitentalud te berekenen. Per vak dienen, per beoordeelde faalkanscategorie, individuele berekeningen te worden uitgevoerd wat resulteert in veel verschillende projectbestanden, veelal handmatig ingevuld. Om dit proces te vergemakkelijk en om fouten in invoer te voorkomen is dit script opgezet.
 
 Dit script genereert, op basis van input in een Excelbestand, reeds ingevulde GRSX-projectbestanden **voor het deelmechanisme golfklap, in het bovenrivierengebied**. Oploopberekeningen of berekeningen met een afwijkende Q-variant zouden met enkele eenvoudige aanpassingen aan het script toegevoegd kunnen worden. Tevens is een script bijgevoegd om de resultaten automatisch uit te lezen.
 
