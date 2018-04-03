@@ -1,0 +1,1 @@
+Dit scriptje zet uitvoer van flimap analyst (.txt) om naar surfacelines. Selecteer eerst de map waar de flimap analystuitvoer staat en sla vervolgens het surfacelines bestand op. Let op script kan nog niet met meerdere grids in een profiel omgaan.
