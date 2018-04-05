@@ -1,7 +1,7 @@
 # Inleiding
 `SOSscenarios_db_v3.py` is een Pythonscript om SOS-scenario's te visualiseren, ten behoeve van onder andere analyses en rapportages. Het script leest de gegevens automatisch uit uit de database en plot per segment alle scenario's, waarbij de kansen per scenario worden weergegeven.
 
-* Auteur: M. Flierman, 2018*
+*Auteur: M. Flierman, 2018*
 
 ## Vereisten
 * Python 3.6
