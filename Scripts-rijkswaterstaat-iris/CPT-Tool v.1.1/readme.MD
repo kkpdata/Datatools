@@ -1,3 +1,7 @@
+# Versies en aanpassingen
+
+27-06-2018: nieuwe handleiding toegevoegd. 
+
 # Doel
 
 Het ondersteunen van het proces van het interpreteren van sonderingen.
@@ -14,13 +18,13 @@ De tool ondersteunt de gebruiker in:
 * toekennen parameters aan grondlagen (Nkt, ?n, S, m) 
 * Berekenen ongedraineerde sterkte su (o.b.v. Nkt) 
 * Terugrekenen van OCR, grensspanning en POP 
-* Ondersteunen bij de berekening van statistiek (verwachtingswaarden, karakteristieke waarden en variatiecoëfficiënten voor de grensspanning). 
+* Ondersteunen bij de berekening van statistiek (verwachtingswaarden, karakteristieke waarden en variatiecoÃ«fficiÃ«nten voor de grensspanning). 
 * Exporteren van resultaten per laag in spreadsheet en grafisch. 
 * Invoer zijn sonderingen in GEF-formaat.
 
 # Technische informatie
 
-Om de CPT Tool te laten werken dient MATLAB te zijn geïnstalleerd. Informatie hierover is te vinden in het tekstbestand dat is opgenomen in de bestandsmap van de CPTtool.
+Om de CPT Tool te laten werken dient MATLAB te zijn geÃ¯nstalleerd. Informatie hierover is te vinden in het tekstbestand dat is opgenomen in de bestandsmap van de CPTtool.
 
 # Achtergrondinformatie
 
