@@ -1,6 +1,6 @@
 # Versies en aanpassingen
 
-27-06-2018: Nieuwe handleiding CPT en NKT tool is toegevoegd.
+27-06-2018: Nieuwe handleiding CPT en Nkt tool is toegevoegd.
 
 # Doel
 
