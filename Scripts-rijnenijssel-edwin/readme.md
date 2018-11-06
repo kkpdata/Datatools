@@ -11,5 +11,6 @@ De Toolbox is gemaakt met ArcGIS versie 10.5.1.
 
 ## Contact
 
-Edwin Nieuwland (Witteveen+Bos)
-Emiel Huizinga (Waterschap Rijn en IJssel)
+Edwin Nieuwland [www.witteveenbos.com]
+
+Emiel Huizinga [www.wrij.nl]
