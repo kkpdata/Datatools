@@ -1,3 +1,4 @@
+encoding: UTF-8
 # Inleiding
 WBI Tools ontwikkeld voor het toetsproces, specifiek voor de situatie binnen het werkgebied van Waterschap Rijn en IJssel. 
 
@@ -7,7 +8,7 @@ Genereren profielen voor de toetsporen STPH(1_Surfacelines) en GEKB(2_PRFLprofie
 ## Gebruik
 De Toolbox is gemaakt met ArcGIS versie 10.5.1. <br>
 Met FME is de basisdata gegenereerd en klaar gezet.(WS Friesland tools) Output zie: Ringtoets_WRIJ48_1.gdb<br>
-Beschrijving FME modellen zie: FME_modellen_uitvoer_volgorde_prflTool.pdf<br>
+Beschrijving FME modellen zie: [FME_modellen_uitvoer_volgorde_prflTool.pdf](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijnenijssel-edwin/documentatie/FME_modellen_uitvoer_volgorde_prflTool.pdf)<br>
 De scripts zijn gemaakt met python 2.7.
 
 ## Beschrijving tools
@@ -32,7 +33,8 @@ Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen,
 * bepalen snijpunt piping in- en uittredelijn
 * XML met de berekening wegschrijven(direct gekoppeld met *.soil) 
 * variant door obv de mediaan het representatieve profiel te bepalen
-Gedetailleerde uitleg in: 20181009_Handleiding_SurfacelinesTool_Piping_Macro_v2_ENIE.pdf<br>
+Gedetailleerde uitleg in: <br>
+[20181009_Handleiding_SurfacelinesTool_Piping_Macro_v2_ENIE.pdf](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijnenijssel-edwin/documentatie/20181009_Handleiding_SurfacelinesTool_Piping_Macro_v2_ENIE.PDF)
 
 <b>2_PRFLprofielen</b>
 Scripts vot het toetsspoor Hoogte.<br>
@@ -42,10 +44,11 @@ Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen,
 * prfl punten inklikken en uittekenen profiellijn
 * prfl's, shape en XML met de berekening wegschrijven
 * voor de langscontructies prfl en mappenstructuur tbv HYDRA-NL aanmaken
-Gedetailleerde uitleg in: 20181009_Handleiding_HoogteTool_v2_ENIE.pdf<br>
+Gedetailleerde uitleg in:<br>
+[20181009_Handleiding_HoogteTool_v2_ENIE.pdf](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijnenijssel-edwin/documentatie/20181009_Handleiding_HoogteTool_v2_ENIE.PDF)
 
 <b>3_Riskeer_resultaten_verwerken</b>
-Uitlezen berekend Riskeer project naar Ã©Ã©n overzichtelijke tabel met de belangrijkste resultaten.
+Uitlezen berekend Riskeer project naar één overzichtelijke tabel met de belangrijkste resultaten.
 
 <b>4_Rapportage</b>
 Enkele tools om de data makkelijk te visualiseren. Onder andere door gebruik te maken van data driven pages<br>
