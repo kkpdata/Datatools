@@ -10,7 +10,7 @@ De Toolbox is gemaakt met ArcGIS versie 10.5.1.
 Met FME is de basisdata gegenereerd en klaar gezet.(WS Friesland tools) Output zie: Ringtoets_WRIJ48_1.gdb
 De scripts zijn gemaakt met python 2.7.
 
-![alt text](https://github.com/kkpdata/Datatools/tree/master/Scripts-rijnenijssel-edwin/tbx2.png "Toolbox v2")
+<img scr="https://github.com/kkpdata/Datatools/tree/master/Scripts-rijnenijssel-edwin/tbx2.png" alt="Toolbox v2"/>
 
 ## Contact
 
