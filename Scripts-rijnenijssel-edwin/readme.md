@@ -19,35 +19,35 @@ De toolbox bestaat uit 5 toolsets en welke hier kort worden beschreven.
 
 ![Toolbox v2](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijnenijssel-edwin/tbx2.png "Toolbox v2")
 
-<b>1. 0_Datavoorbereiding</b>
+<b>0_Datavoorbereiding</b>
 Dit zijn enkele specifieke WRIJ tools. <br>
 Het uitlezen van de HRD locaties leest een *.rtd uit met daarin 2x hetzelfde traject, 1x doorgerekend met de signaleringswaarde en 1x met de ondergrens.<br>
 resultaat is ene gis bestand met de berekende waterstanden en golfhoogtes.
 
-<b>2. 1_Surfacelines</b>
+<b>1_Surfacelines</b>
 Scripts vot het toetsspoor Piping.<br>
 Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen, welke als basis dient voor de vervolgstappen.<br>
---* per vak een representatief profiel selecteren
---* csv en shp voor Riskeer wegschrijven
---* bepalen snijpunt piping in- en uittredelijn
---* XML met de berekening wegschrijven(direct gekoppeld met *.soil) 
---* variant door obv de mediaan het representatieve profiel te bepalen
+* per vak een representatief profiel selecteren
+* csv en shp voor Riskeer wegschrijven
+* bepalen snijpunt piping in- en uittredelijn
+* XML met de berekening wegschrijven(direct gekoppeld met *.soil) 
+* variant door obv de mediaan het representatieve profiel te bepalen
 Gedetailleerde uitleg in: 20181009_Handleiding_SurfacelinesTool_Piping_Macro_v2_ENIE.pdf<br>
 
-<b>3. 2_PRFLprofielen</b>
+<b>2_PRFLprofielen</b>
 Scripts vot het toetsspoor Hoogte.<br>
 Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen, welke als basis dient voor de vervolgstappen.<br>
---* taludhelling bepalen tbv het verfijnen van de vakindeling
---* profielen per vak selecteren en bekijken
---* prfl punten inklikken en uittekenen profiellijn
---* prfl's, shape en XML met de berekening wegschrijven
---* voor de langscontructies prfl en mappenstructuur tbv HYDRA-NL aanmaken
+* taludhelling bepalen tbv het verfijnen van de vakindeling
+* profielen per vak selecteren en bekijken
+* prfl punten inklikken en uittekenen profiellijn
+* prfl's, shape en XML met de berekening wegschrijven
+* voor de langscontructies prfl en mappenstructuur tbv HYDRA-NL aanmaken
 Gedetailleerde uitleg in: 20181009_Handleiding_HoogteTool_v2_ENIE.pdf<br>
 
-<b>4. 3_Riskeer_resultaten_verwerken</b>
+<b>3_Riskeer_resultaten_verwerken</b>
 Uitlezen berekend Riskeer project naar één overzichtelijke tabel met de belangrijkste resultaten.
 
-<b>5. 4_Rapportage</b>
+<b>4_Rapportage</b>
 Enkele tools om de data makkelijk te visualiseren. Onder andere door gebruik te maken van data driven pages<br>
 of per soil segment de bijbehorende vakken te exporteren.
 
