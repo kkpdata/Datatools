@@ -12,7 +12,6 @@ De scripts zijn gemaakt met python 2.7.
 
 
 ## Contact
-
 Gert de Jonge [www.wrij.nl]<br>
 Emiel Huizinga [www.wrij.nl]<br>
 Edwin Nieuwland [www.witteveenbos.com]
