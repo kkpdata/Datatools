@@ -22,10 +22,10 @@ De toolbox bestaat uit 5 toolsets en welke hier kort worden beschreven.
 <b>0_Datavoorbereiding</b>
 Dit zijn enkele specifieke WRIJ tools. <br>
 Het uitlezen van de HRD locaties leest een *.rtd uit met daarin 2x hetzelfde traject, 1x doorgerekend met de signaleringswaarde en 1x met de ondergrens.<br>
-resultaat is ene gis bestand met de berekende waterstanden en golfhoogtes.
+Het resultaat is een gis bestand met de berekende waterstanden en golfhoogtes.
 
 <b>1_Surfacelines</b>
-Scripts vot het toetsspoor Piping.<br>
+Scripts voor het toetsspoor Piping.<br>
 Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen, welke als basis dient voor de vervolgstappen.<br>
 * per vak een representatief profiel selecteren
 * csv en shp voor Riskeer wegschrijven
@@ -36,7 +36,7 @@ Gedetailleerde uitleg in: <br>
 [20181009_Handleiding_SurfacelinesTool_Piping_Macro_v2_ENIE.pdf](https://github.com/kkpdata/Datatools/blob/master/Scripts-rijnenijssel-edwin/documentatie/20181009_Handleiding_SurfacelinesTool_Piping_Macro_v2_ENIE.PDF)
 
 <b>2_PRFLprofielen</b>
-Scripts vot het toetsspoor Hoogte.<br>
+Scripts voor het toetsspoor Hoogte.<br>
 Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen, welke als basis dient voor de vervolgstappen.<br>
 * taludhelling bepalen tbv het verfijnen van de vakindeling
 * profielen per vak selecteren en bekijken
