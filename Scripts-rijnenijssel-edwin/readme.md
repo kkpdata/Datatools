@@ -1,4 +1,3 @@
-encoding: UTF-8
 # Inleiding
 WBI Tools ontwikkeld voor het toetsproces, specifiek voor de situatie binnen het werkgebied van Waterschap Rijn en IJssel. 
 
@@ -46,7 +45,7 @@ Globaal maakt de tool een bestand aan van het traject met de benodigde kolommen,
 Gedetailleerde uitleg in: 20181009_Handleiding_HoogteTool_v2_ENIE.pdf<br>
 
 <b>3_Riskeer_resultaten_verwerken</b>
-Uitlezen berekend Riskeer project naar één overzichtelijke tabel met de belangrijkste resultaten.
+Uitlezen berekend Riskeer project naar Ã©Ã©n overzichtelijke tabel met de belangrijkste resultaten.
 
 <b>4_Rapportage</b>
 Enkele tools om de data makkelijk te visualiseren. Onder andere door gebruik te maken van data driven pages<br>
