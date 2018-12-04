@@ -1,6 +1,6 @@
 # NB
 
-Let op: deze versie van DSoil2DGeo wordt op dit moment aangepast. Met de release van een nieuwe versie van DSoil Model in december 2017 functioneert de tool niet meer optimaal. Zodra er een nieuwe versie beschikbaar is wordt deze verspreid via de github tooltjespagina.
+Met ingang van november 2018 is er een nieuwe versie beschikbaar van DSoil2DGeo (v2.0.5).
 
 # Doel
 
@@ -8,7 +8,7 @@ De tool DSoil2DGeo laat gebruikers informatie vanuit D-Soilmodel naar een D-Geos
 
 # Installer
 
-Een installer kan worden gedownload bij de Release DSoil2DGeo-installer v1.1 (https://github.com/kkpdata/Datatools/releases/tag/DSoil2DGeo)
+Een installer kan worden gedownload bij de Release DSoil2DGeo-installer v2.0.5 (https://github.com/kkpdata/Datatools/releases/tag/DSoil2DGeo)
 
 # Gebruik en functionaliteit
 
@@ -28,7 +28,7 @@ De volgende systeemeisen zijn van toepassing:
 
 # Achtergrondinformatie
 
-Versie 1.1, januari 2017.
+Versie 2.05, november 2018.
 
 # Contactpersoon
 [Iris van de Kerk](https://github.com/orgs/kkpdata/people/IvdK), (Iris.vande.kerk@rws.nl) [Rijkswaterstaat-WVL](https://www.rijkswaterstaat.nl/over-ons/onze-organisatie/organisatiestructuur/water-verkeer-en-leefomgeving/index.aspx)
