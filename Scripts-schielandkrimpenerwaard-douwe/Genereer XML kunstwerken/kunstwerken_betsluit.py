@@ -67,7 +67,7 @@ with open(input("Bestandsnaam (zonder extentie): ")+".csv", 'r')as csvfile:
         item52=ET.SubElement(drempelhoogte, 'standaardafwijking')
         kerendehoogte= ET.SubElement(stochasten,'stochast')
         kerendehoogte.set('naam','kruinhoogte')
-        item41=ET.SubElement(kerendehoogte,'verwachtingswaarde')
+        item41=ET.SubElement(drempelhoogte,'verwachtingswaarde')
         item42=ET.SubElement(kerendehoogte, 'standaardafwijking')
         item53= ET.SubElement(berekening, 'illustratiepunteninlezen')
 
