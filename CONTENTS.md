@@ -54,11 +54,6 @@
 
 * [Import GEF-bestanden in database](https://github.com/kkpdata/Datatools/tree/master/Scripts-valleienveluwe-adrie/Import%20GEF-bestanden%20in%20database)
 
-7. [Scripts-schielandkrimpenerwaard-douwe](https://github.com/kkpdata/Datatools/tree/master/Scripts-schielandkrimpenerwaard-douwe):
-
-   _Organisatie: [Hoogheemraadschap van Schieland en de Krimpenerwaard](https://www.schielandendekrimpenerwaard.nl/); deelnemer: Douwe Yska_
-
-* [Genereer XML kunstwerken](https://github.com/kkpdata/Datatools/tree/master/Scripts-schielandkrimpenerwaard-douwe/Genereer%20XML%20kunstwerken)
 
 
 
