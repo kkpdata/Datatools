@@ -1,4 +1,7 @@
 # Inleiding
+
+*Profielenviewer v2.0*
+
 De profielenviewer is een GUI om dwarsprofielen te visusaliseren. 
 
 Als voorbeeid zijn twee CSV-bestanden bijgevoegd, *voorbeeld_oud_formaat.csv* en *voorbeeld_nieuw_formaat.csv*.
@@ -23,5 +26,5 @@ Eisen aan het importdocument:
 * De viewer is toegestpitst op de dataformats zoals ze bij Aa en Maas gehanteerd worden, maar met kleine aanpassingen kan het ook bij andere waterschappen gebruikt worden.
 
 # Voorbeeld
-![Voorbeeld profielenviewer](https://github.com/kkpdata/Datatools/blob/master/Scripts-aaenmaas-thijs/Profielenviewer/voorbeeld.png "Profielenviewer")
+![Voorbeeld profielenviewer](https://github.com/kkpdata/Datatools/tree/master/Scripts-aaenmaas-thijs/Profielenviewer%202/voorbeeld.png "Profielenviewer")
 
