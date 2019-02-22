@@ -1,15 +1,15 @@
-# Inleiding
-
 *Profielenviewer v2.0*
 
-De profielenviewer is een GUI om dwarsprofielen te visusaliseren. 
-
-Als voorbeeid zijn twee CSV-bestanden bijgevoegd, *voorbeeld_oud_formaat.csv* en *voorbeeld_nieuw_formaat.csv*.
-
-## Veranderingen ten opzichte van de oude profielenviewer:
+**Veranderingen ten opzichte van de oude profielenviewer:**
 * Gebruikt Python 3.6
 * Opent zowel de input voor DAM Edit Design als qDAMEdit
 * Meer GUI-functionaliteiten (Zoom, pan, opslaan, legenda)
+* [executable](https://github.com/kkpdata/Datatools/releases/tag/Profielenviewer) beschikbaar
+
+# Inleiding
+De profielenviewer is een GUI om dwarsprofielen te visusaliseren. 
+
+Als voorbeeid zijn twee CSV-bestanden bijgevoegd, *voorbeeld_oud_formaat.csv* en *voorbeeld_nieuw_formaat.csv*.
  
 ## Vereisten
 * Python 3.6 (Of gebruik de [executable](https://github.com/kkpdata/Datatools/releases/tag/Profielenviewer))
