@@ -14,10 +14,6 @@ Als voorbeeid zijn twee CSV-bestanden bijgevoegd, *voorbeeld_oud_formaat.csv* en
 ## Vereisten
 * Python 3.6 (Of gebruik de [executable](https://github.com/kkpdata/Datatools/releases/tag/Profielenviewer))
 
-## Executable
-Indien u geen Python heeft of gewoon lui bent kunt u altijd gebruik maken van de [executable.](https://github.com/kkpdata/Datatools/releases/tag/Profielenviewer)
-
-
 # Input
 Als input wordt eenzelfde CSV-document gebruikt als voor de invoer van DAM Edit Design of qDamEdit, ook wel bekend als de klik-tools. Voorbeelden van beide bestanden zijn meegeleverd.
 
