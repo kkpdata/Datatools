@@ -26,5 +26,4 @@ Eisen aan het importdocument:
 * De viewer is toegestpitst op de dataformats zoals ze bij Aa en Maas gehanteerd worden, maar met kleine aanpassingen kan het ook bij andere waterschappen gebruikt worden.
 
 # Voorbeeld
-![Voorbeeld profielenviewer](https://raw.githubusercontent.com/kkpdata/Datatools/master/Scripts-aaenmaas-thijs/Profielenviewer%202/voorbeeld.png"Profielenviewer")
-
+![Voorbeeld profielenviewer](https://github.com/kkpdata/Datatools/blob/master/Scripts-aaenmaas-thijs/Profielenviewer%202/voorbeeld.png "Profielenviewer")
